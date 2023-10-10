@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>DreamToys</title>
+        <meta charset="UTF-8">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <nav class="nav">
+                <a class="nav-link logo" href="index.html">DreamToys</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="comics.html">&triangleleft;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="index.html">&triangleright;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="figuras01.html">Figuras Superheroes</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="figuras02.html">Figuras Deportistas</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="autos.html">Autos escala</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="articulos01.html">Articulos deportivos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="articulos02.html">Otros articulos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="comics.html">Comics</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="registro.html">Registro</a></li>
+                </ul>    
+            </nav>
+        </header>
+        <aside>
+            <h2 class="resaltado">Novedades</h2>
+            <p>Tenemos un 50% de descuento en todos nuestros productos por la compra de algun artículo con un valor mayor a ¢25000.</p>
+        </aside>
+        <section>
+            <h2>Siga las instrucciones para completar el registro correctamente.</h2>
+            <article>
+                <h3>Instrucción #1</h3>
+                <figure>
+                    <p>Digite el nombre de usuario que desea. Puede usar letras y números.</p>    
+                </figure>
+                <hr>
+            </article>
+            <article>
+                <h3>Instrucción #2</h3>
+                <figure>
+                    <p>Digite la clave que desea. Puede usar letras y números. Cabe resaltar que la clave no es visible en el espacio donde se está digitando por seguridad.</p>  
+                </figure>
+                <hr>
+            </article>
+            <article>
+                <h3>Instrucción #3</h3>
+                <figure>
+                    <p>Digite el email que desee.</p>  
+                </figure>
+                <hr>
+            </article>
+            <article>
+                <h3>Instrucción #4</h3>
+                <figure>
+                    <p>Digite su edad. Debe de ser mayor de 18 años para completar el registro correctamente.</p>  
+                </figure>
+                <hr>
+            </article>
+            <form action="/usuario/registro"
+                  method="post">
+                <table border="0">
+                    <tbody>
+                        <tr>
+                            <td>Usuario</td>
+                            <td><input type="text" required name="usuario" value="" size="30" /></td>
+                        </tr>
+                        <tr>
+                            <td>Clave</td>
+                            <td><input type="password" required name="clave" value="" size="30" /></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td><input type="email" required name="email" value="" size="30" /></td>
+                        </tr>
+                        <tr>
+                            <td>Edad</td>
+                            <td><input type="number" min="18" name="edad" value="" /></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="Registrar" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </form>
+        </section>
+        <footer>
+            Derechos Reservados 2023 &COPY;
+        </footer>    
+    <body>    
+</html>
